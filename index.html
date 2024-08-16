@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome</title>
+    <link rel="icon" type="image" href="./media/favicon.png" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <nav class="w-full d-flex align-items-center">
+      <div class="nav-wdth md:flex-row d-flex items-center h-23 justify-evenly">
+        <div class="logo">
+          <a href="#"><img src="./media/logo.png" alt="" class="obj w-56 h-23 hover:cursor-pointer" /></a>
+        </div>
+        <div
+          class="nav-links md:static md:flex absolute md:min-h-fit bg-white min-h-[40vh] left-0 top-[-600%] w-full md:w-auto align-items-center">
+          <div
+            class="align-items-start md:align-items-center px-5 md:flex-row flex-col d-flex justify-evenly font-normal text-lg md:center md:gap-[8vw] gap-3">
+            <p class="hover:cursor-pointer me-3 products" id="products">Products<span><i class="bi bi-chevron-down text-sm ms-1"></i></span></p>
+            <ul class="absolute top-[10px] md:top-[70px] left-[40%] md:left-[43%] w-[130px] md:mt-[-20px] p-[10px] bg-light " id="submenu">
+              <li><a href=""></a>LMS</li>
+              <hr>
+              <li><a href=""></a>CRM</li>
+              <hr>
+              <li><a href=""></a>HRMS</li>
+            </ul>
+            <p class="hover:cursor-pointer me-3 solutions">Solutions<span><i class="bi bi-chevron-down text-sm ms-1"></i></span></p>
+            <ul class="absolute top-[10px] md:top-[70px] left-[40%] md:left-[50%] w-[230px] md:mt-[-20px] p-[10px] bg-light" id="submenu-2">
+              <li><a href=""></a>Wducational institution</li>
+              <hr>
+              <li><a href=""></a>Finance</li>
+            </ul>
+            <p class="hover:cursor-pointer me-3 services">Services <span><i class="bi bi-chevron-down text-sm ms-1"></i></span></p>
+            <ul class="absolute top-[10px] md:top-[70px] left-[40%] md:left-[58%] w-[130px] md:mt-[-20px] p-[10px] bg-light" id="submenu3">
+              <li><a href=""></a>Sales</li>
+              <hr>
+              <li><a href=""></a>Services</li>
+              <hr>
+              <li><a href=""></a>marketing</li>
+            </ul>
+            <p class="hover:cursor-pointer me-3">Resources</p>
+            <button class="btn strt-now w-32 ms-0 sm:ms-10">Start Now</button>
+          </div>
+        </div>
+      </div>
+      <ion-icon name="menu" class="text-3xl md:hidden me-5 cursor-pointer" onclick="onToggleMenu(this)"></ion-icon>
+    </nav>
+    <!-- _____________________________________nav bar completed ____________________________________________________ -->
+
+    <div class="home w-full mb-0">
+      <div class="home-card w-4/5 md:w-4/5 mx-auto mb-5">
+        <p class="text-center text-md font-bold text-blue-950 mb-0">MEET US</p>
+        <h1 class="text-center text-4xl mx-auto md:text-7xl heading font-extrabold text-blue-950 mb-2">Revolutionizing Business<br />with Custom AI Apps</h1>
+        <p class="text-center font-normal text-xl md:text-2xl">Elevate your business operations with our state-of-the-art AI-powered solutions.</p>
+        <div class="dis-btn md:w-2/5 d-flex justify-evenly mx-auto mt-10">
+          <button class="btn text-blue-950 font-semibold btn-hov border-2 border-black w-2/5 md:w-1/4">Know More</button>
+          <button class="btn strt-now">Ask For Demo</button>
+        </div>
+      </div>
+    </div>
+    <!-- ------------------------ stars animation -----------------------------  -->
+
+    <div class="star absolute top-[250px] left-[20px] md:top-[250px] md:left-[200px]">
+      <img src="./media/pathone.png" alt="">
+    </div>
+    <div class="star absolute top-[330px] left-[310px] md:top-[300px] md:left-[1110px]">
+      <img src="./media/pathone.png" alt="">
+    </div>
+    <div class="star-2 absolute top-[200px] left-[120px] md:top-[180px] md:left-[450px]">
+      <img src="./media/pathone.png" alt="">
+    </div>
+    <div class="star-2 absolute top-[480px] left-[310px] md:top-[420px] md:left-[1000px]">
+      <img src="./media/pathone.png" alt="">
+    </div>
+
+    <!-- ________________________home page completed ____________________________________ -->
+
+    <div class="services w-full h-[80vh] mt-[-90px]">
+      <div class="service-box d-flex flex-col md:flex-row justify-between md:w-4/5 mx-auto">
+        <div class="one mt-4 w-[85%] md:w-[325px] car p-2 mx-auto">
+          <img src="./media/crm img.jpg" alt="" class="crm w-full rounded-lg" />
+          <div class="des px-3 mt-2">
+                <h2 class="text-xl font-bold text-blue-950">CRM (Customer <br/>Relationship <br />Management)</h2>
+                <p>Leverage our AI-powered CRM to gain actionable insights, automate mundane tasks, and build stronger customer relationships.</p>
+                <a href="https://konadigital.in/products.html"><p class="text-md text-[#8D53F1] d-flex justify-end mt-3 hover:cursor-pointer">Know More<span class="text-3xl ms-1"><ion-icon name="log-in"></ion-icon></span></p></a>
+            </div>
+        </div>
+        <div class="two mt-4 w-[85%] md:w-[325px] mt-5 md:!mt-[-100px] car p-2 mx-auto">
+          <img src="./media/lms img.jpg" alt="" class="lms w-full rounded" />
+          <div class="des px-3 mt-2">
+                <h2 class="text-xl font-bold text-blue-950">LMS (Learning <br />Management <br />System)</h2>
+                <p>Transform the learning experience with our intelligent LMS, designed to cater to the evolving needs of the education sector.</p>
+                <a href="https://konadigital.in/products.html"><p class="text-md text-[#8D53F1] d-flex justify-end mt-3 hover:cursor-pointer">Know More <span class="text-3xl ms-1"><ion-icon name="log-in"></ion-icon></span></p></a>
+          </div>
+        </div>
+        <div class="three mt-4 mb-[400px] w-[85%] md:w-[325px] car p-2 mx-auto">
+          <img src="./media/hrms img.jpg" alt="" class="hrms w-full rounded" />
+          <div class="des px-3 mt-2">
+                <h2 class="text-xl font-bold text-blue-950">HRMS (Human Resource Management <br />System)</h2>
+                <p>Optimize your HR processes with our AI-driven HRMS, ensuring efficient management of recruiting, training, payroll, and more.</p>
+                <a href="https://konadigital.in/products.html"><p class="text-md text-[#8D53F1] d-flex justify-end mt-3 hover:cursor-pointer">Know More<span class="text-3xl ms-1"><ion-icon name="log-in"></ion-icon></span></p></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- _________________________ services completed _________________________________________ -->
+
+    <div class="features w-full mt-[850px] md:mt-5 h-[40vh] relative">
+        <h2 class=" text-xl text-blue-950 font-bold text-center p-2 w-[300px] mx-auto rounded-5 bg-[#FFEBEB] industry">INDUSTRY SOLUTIONS</h2>
+        <h1 class="text-4xl text-blue-950 font-bold text-center mt-2">Kona Digital</h1>
+        <p class="text-xl md:text-4xl text-blue-950 font-normal text-center mt-2 px-3">Revolutionizing Industries with a Feature-Rich,<br> AI-Powered Ecosystem</p>
+    </div>
+    <div class="grid-boxes d-flex-col flex-wrap md:d-flex-col grid-rows-2 md:grid-cols-2 w-4/5 md:w-3/5  mx-auto mb-[200px] ">
+      <div class="first comman bg-light border-b-2  md:w-full h-[375px] md:h-[350px]  ">
+        <div class="front hover:cursor-pointer">
+          <img src="./media/f1.png" alt="" class="mx-auto mt-5 mb-0">
+          <h3 class="text-2xl text-center mt-0 text-blue-950 font-bold mb-2">Education</h3>
+          <p class="text-center text-sm px-[70px]">From manufacturing to retail, our AI solutions are crafted to address the specific challenges and opportunities within each industry.</p>
+        </div>
+      </div>
+      <div class="second comman bg-light border-b-2 border-s-2 md:w-full h-[375px] md:h-[350px]">
+        <div class="front hover:cursor-pointer">
+          <img src="./media/f2.png" alt="" class="mx-auto mt-5 mb-0">
+          <h3 class="text-2xl text-center mt-0 text-blue-950 font-bold mb-2">Industries</h3>
+          <p class="text-center text-sm px-[70px]">Boost your real estate business with intelligent AI solutions that offer deeper insights, better customer engagement, and streamlined operations.</p>
+        </div>
+      </div>
+      <div class="third comman bg-light md:w-full h-[375px] md:h-[350px] border-b-2">
+        <div class="front hover:cursor-pointer">
+          <img src="./media/f3.png" alt="" class="mx-auto mt-5 mb-0">
+          <h3 class="text-2xl text-center mt-0 text-blue-950 font-bold mb-2">Real Estate</h3>
+          <p class="text-center text-sm px-[70px]">Revolutionize your IT services with AI applications that improve system efficiencies, predict issues before they arise, and enhance overall performance.</p>
+        </div>
+      </div>
+      <div class="four comman bg-light border-s-2 md:w-full h-[375px] md:h-[350px]">
+        <div class="front hover:cursor-pointer">
+          <img src="./media/f4.png" alt="" class="mx-auto mt-5 mb-0">
+          <h3 class="text-2xl text-center mt-0 text-blue-950 font-bold mb-2">IT</h3>
+          <p class="text-center text-sm px-[70px]">Empower your institution with cutting-edge education technology solutions designed to enhance the learning and administrative experience.</p>
+        </div>
+      </div>
+    </div>
+    <!-- ------------------------- blue & ring ---------------------------------------------- -->
+     <div class="blue absolute top-[2500px] md:top-[1200px]">
+      <img src="./media/blue1.png" alt="">
+     </div>
+     <div class="rope border-0 absolute top-[5300px] md:top-[2000px]">
+      <img src="./media/ropeline.png" alt="">
+     </div>
+     <div class="rope border-0 absolute top-[6200px] md:top-[3300px]">
+      <img src="./media/ropeline.png" alt="">
+     </div>
+     <div class="pink absolute top-[4300px] md:top-[1900px] md:right-[30px]">
+      <img src="./media/pink.png" alt="">
+     </div>
+    <!-- _____________________________ feed back ___________________________________________  -->
+
+
+    <div class="feedback w-full h-[70vh]">
+      <h1 class=" text-3xl md:text-5xl text-center font-bold">Trusted by <span class="text-purple-800 ">millions</span> </h1>
+      <div class="reviews px-5 gap-8 flex-col md:flex-row">
+        <div class="card md:w-1/2 h-42 md:h-44 p-3 mt-5">
+          <p class="py-2 ">As a Free Lancer I was looking for a tool could help me generate ideas and write faster . This AI Text website has done that and  more.</p>
+          <hr>
+          <div class="copywriter d-flex mt-4 gap-8 align-items-center">
+            <img src="https://konadigital.in/images/user2.png" alt="">
+            <div class="names">
+            <p class="font-bold">GEETHA</p>
+            <p>COPY WRITER</p>
+            </div>
+          </div>
+        </div>
+        <div class="card md:w-1/2 h-42 md:h-44 p-3 mt-5">
+          <p class="py-2">As a Free Lancer I was looking for a tool could help me generate ideas and write faster . This AI Text website has done that and  more.</p>
+          <hr>
+          <div class="copywriter d-flex mt-4 gap-8 align-items-center">
+            <img src="https://konadigital.in/images/user3.png" alt="">
+            <div class="names">
+            <p class="font-bold">AMARDEEP</p>
+            <p>COPY WRITER</p>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+      
+      </div>
+    </div>
+
+    <!-- -------------------------- reviews carousal --------------------------------------  -->
+
+    <!-- ___________________________________ reviews completed ______________________________________  -->
+    <div class="places w-4/5 mx-auto my-5">
+      <div class="banglore flex-col md:flex-row ">
+        <div class="address w-full md:w-1/2 h-[300px] md:h-[400px]  align-items-center">
+          <h3 class="text-3xl text-blue-950 font-bold text-center mt-[100px] mb-4">Banglore</h3>
+          <p class="text-lg text-center mt-0">3rd Floor,Site No 1&2 Saroj Square ,Whitefield <br> Main Road ,Munnekollal Village Post, <br> Marathahalli ,Bengaluru,Karnataka 560037 </p>
+        </div>
+        <div class="bng-img w-full md:w-1/2 h-auto md:h-96">
+          <img src="https://konadigital.in/images/bangalore.png" alt="" >
+        </div>
+      </div>
+      <div class="banglore flex-col md:flex-row mb-[200px] mt-3 md:!mt-[100px]">
+        <div class="bng-img w-full md:w-1/2 h-auto md:h-96">
+          <img src="https://konadigital.in/images/hyderabad.png" alt="" >
+        </div>
+        <div class="address w-full md:w-1/2  h-[250px] mt-[-80px] md:mt-5 md:h-[300px] align-items-center ">
+          <h3 class="text-3xl text-blue-950 font-bold text-center mt-[100px] mb-4">Hyderabad</h3>
+          <p class="text-lg text-center mt-0">2nd Floor, Hitech City Rd, Above Domino's,opp. <br> Cyber Towers, Jai hind Enclave, <br> Hyderabad, Telangana, 06304982304 </p>
+        </div>
+      </div>
+    </div>
+<!-- -------------------------------------------  -->
+
+    <!-- ------------------------------- accordings starts ------------------------------  -->
+    <div class="acc w-[96%] md:w-3/5 mx-auto mb-[80px] md:mb-5">
+      <h2 class="text-4xl text-blue-950 font-bold text-center mb-5">Q&A</h2>
+        <button class="accordion mt-3 mb-3 font-semibold hover:cursor-pointer text-lg md:text-xl">What Services does Kona Digital Provide ? <span class="dwn md:ml-[400px]"><i class="bi bi-chevron-down atl"></i></span></button>
+      <div class="panel mb-4 text-md">
+          <p>Kona Digital specializes in building custom AI applications, including AI-powered CRM, LMS, and HRMS solutions. We also offer comprehensive marketing, sales, and service solutions tailored to the unique needs of various industries, including education, real estate, IT, and more.</p>
+      </div>
+      <hr>
+      <button class="accordion mt-3 mb-3 font-semibold hover:cursor-pointer text-lg md:text-xl">How can AI Solutions Benfit my Business ? <span class="dwn md:ml-[400px]"><i class="bi bi-chevron-down atl"></i></button>
+      <div class="panel mb-4 text-md">
+          <p>AI solutions can automate repetitive tasks, provide valuable insights through predictive analytics, enhance personalized interactions, improve operational efficiency, and ultimately drive better business outcomes. Whether it's managing customer relationships, optimizing HR processes, or enhancing learning experiences, our AI solutions are designed to meet your specific needs.</p>
+      </div>
+      <hr>
+      <button class="accordion mt-3 mb-3 font-semibold hover:cursor-pointer text-lg md:text-xl">Is It easy to integrate Kona Digital's AI solutions with my existing systems? <span class="dwn ml-[50px] md:ml-[110px]"><i class="bi bi-chevron-down atl"></i></button>
+      <div class="panel mb-4 text-md">
+          <p>Yes, our AI solutions are designed to seamlessly integrate with various existing tools and platforms, ensuring a smooth transition and consistency across your workflows. This minimizes disruption and maximizes efficiency.</p>
+      </div>
+      <hr>
+      <button class="accordion mt-3 mb-3 font-semibold hover:cursor-pointer text-lg md:text-xl">Can Kona Digital's solutions customized for My business ? <span class=" dwn ml-[230px] md:ml-[260px]"><i class="bi bi-chevron-down atl"></i></button>
+      <div class="panel mb-4 text-md">
+          <p>Absolutely. We understand that every business is unique. Our AI solutions are highly customizable, allowing us to tailor features, workflows, and dashboards to align with your specific business processes and objectives.</p>
+      </div>
+      <hr>
+      <button class="accordion font-semibold hover:cursor-pointer text-xl">Does Kona Digital ensure data security ? <span class="dwn ml-[350px] md:ml-[420px]"><i class="bi bi-chevron-down atl"></i></button>
+      <div class="panel mb-4 text-md">
+          <p>We prioritize data security and comply with industry-leading standards and regulations. Our solutions include robust security measures such as data encryption, access control, and regular security audits to ensure your information.</p>
+      </div>
+      <hr>
+    </div>
+
+    <!-- ---------------- lets connect ---------------------------  -->
+
+    <div class="lets-connect w-full h-[100vh] md:h-[90vh] mt-[100px] p-5"> 
+      <div class="combine w-full md:w-[80%] flex-col md:flex-row d-flex mx-auto justify-evenly mt-[120px]">
+        <div class="connect-matter w-full md:w-1/2 h-96 md:p-5">
+          <h1 class="text-5xl text-purple-800 text-center font-bold mt-[80px]">Let’s connect.</h1>
+          <p class="text-center mt-4">Whether you have a groundbreaking idea or a challenging project  in mind, AI Hub is here to make it a reality.</p>
+          <button class="btn strt-now w-44 ml-[80px] md:mx-[150px] mt-4 ">Send Message</button>
+
+        </div>
+        <div class="connect-img w-full md:w-1/2 h-96">
+          <img src="https://konadigital.in/images/connect.png" alt="">
+        </div>
+      </div>
+    </div>
+    <!-- ------------------------- sticky contact -----------------------------  -->
+     
+    <!-- -------------- footer ------------------------------------  -->
+
+    <footer class="w-full bg-light md:h-[280px] flex-col md:flex-row d-flex justify-end pt-4">
+      <div class="cont1 md:w-[400px] h-[230px] p-5">
+        <img src="https://konadigital.in/images/ftlog.png" alt="" class="w-1/2">
+        <p class="text-[12px] mt-3 text-justify">At our company, we are dedicated to supporting you in the seamless creation of exceptional content that is both efficient and high in quality. Our expert team and advanced AI-powered tools work hand in hand to assist you in effortlessly producing top-notch content that captivates your audience.</p>
+      </div>
+      <div class="cont2 foo p-3  md:w-[170px] mt-[-20px] md:mt-[30px]  ">
+        <p class="text-lg font-semibold mt-0 md:mt-[30px] ml-[150px] md:ml-[20px]">Products</p>
+        <p class="ml-[170px] md:ml-[20px] mt-2 hover:cursor-pointer">LMS</p>
+        <p class="ml-[170px] md:ml-[20px] mt-2 hover:cursor-pointer">CRM</p>
+        <p class="ml-[170px] md:ml-[20px] mt-2 hover:cursor-pointer">HRM</p>
+      </div>
+      <div class="cont3 foo p-3 md:w-[170px] mt-[-90px] md:mt-[30px] ">
+        <p class="text-lg font-semibold  ml-[150px] md:ml-[20px]">Solutions</p>
+        <p class="ml-[170px] md:ml-[20px] mt-2 hover:cursor-pointer">LMS</p>
+        <p class="ml-[170px] md:ml-[20px] mt-2 hover:cursor-pointer">CRM</p>
+        <p class="ml-[170px] md:ml-[20px] mt-2 hover:cursor-pointer">HRM</p>
+      </div>
+      <div class="cont4 foo p-3 md:w-[170px] mt-[-80px] md:mt-[30px] ">
+        <p class="text-lg font-semibold ml-[150px] md:ml-[20px]">Services</p>
+        <p class="ml-[170px] md:ml-[20px] mt-2 hover:cursor-pointer">LMS</p>
+        <p class="ml-[170px] md:ml-[20px] mt-2 hover:cursor-pointer">CRM</p>
+        <p class="ml-[170px] md:ml-[20px] mt-2 hover:cursor-pointer">HRM</p>
+      </div>
+      <div class="cont5 foo p-3 md:w-[170px] mt-[-80px] md:mt-[30px] ">
+        <p class="text-lg font-semibold ml-[150px] md:ml-[20px]">Resources</p>
+      </div>
+      <div class="cont6 w-1/2  md:w-[250px] h-[230px] md:mr-3 ml-[100px] md:ml-0 mt-[-100px] md:mt-4">
+        <img src="https://konadigital.in/images/fticon.png.png" alt="" class="w-[75%] ml-[50px]">
+      </div>
+    </footer>
+    <div class="stck">
+      <div class="dart p-3 ml-[320px] md:ml-[1400px] hover:cursor-pointer">
+        <span class="text-2xl text-white "><i class="bi bi-telephone-fill"></i></span>
+      </div>
+    </div>
+    
+   
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="app.js"></script>
+  </body>
+</html>
